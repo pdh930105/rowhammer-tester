@@ -3,6 +3,7 @@ TARGET 	    ?= arty
 IP_ADDRESS  ?= 192.168.100.50
 MAC_ADDRESS ?= 0x10e2d5000001
 UDP_PORT    ?= 1234
+PYTHON      ?= python3
 
 # # #
 
@@ -151,7 +152,7 @@ venv/python-deps: venv/bin/activate  # installs python dependencies inside virtu
 	touch venv/python-deps
 
 venv/bin/activate:  # creates virtual environment if it does not exist
-	python3 -m venv venv
+	$(PYTHON) -m venv venv
 
 third_party/riscv64-unknown-elf-gcc:
 	@echo Downloading RISC-V toolchain

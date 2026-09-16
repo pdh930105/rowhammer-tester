@@ -6,7 +6,7 @@ setup(
     name="rowhammer_tester",
     description="Row Hammer Tester",
     author="Antmicro",
-    python_requires="~=3.6",
+    python_requires=">=3.9",
     install_requires=[
         "pythondata-misc-tapcfg",
         "sphinx",

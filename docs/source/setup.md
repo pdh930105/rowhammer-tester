@@ -37,6 +37,17 @@ cd rowhammer-tester
 make deps
 ```
 
+Python 3.9 or newer is required by the pinned development dependencies. If the system
+`python3` is older (for example, Python 3.8 on Ubuntu 20.04), select a newer interpreter
+explicitly when creating the virtual environment:
+
+```sh
+make deps PYTHON=python3.10
+```
+
+The selected interpreter is only used to create `./venv`; subsequent Make targets use
+the tools installed in that virtual environment.
+
 The last command will download and build all the dependencies (including a RISC-V GCC toolchain)
 and set up a [Python virtual environment](https://docs.python.org/3/library/venv.html) under
 the `./venv` directory with all the required packages installed.
