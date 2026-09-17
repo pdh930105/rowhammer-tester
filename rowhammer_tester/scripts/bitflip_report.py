@@ -19,7 +19,9 @@ flip_addr, data_bit, expected_bit, direction, block_addr, block_word_index.
 import argparse
 import csv
 import glob
+import json
 import os
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -55,11 +57,124 @@ def load_flips(files):
             for row in csv.DictReader(f):
                 for col in INT_COLUMNS:
                     row[col] = int(row[col])
+                if row.get("read_count") not in (None, ""):
+                    row["read_count"] = int(row["read_count"])
+                else:
+                    row["read_count"] = None
                 row["_file"] = fname
                 flips.append(row)
                 count += 1
         per_file[fname] = count
     return flips, per_file
+
+
+def run_summary(run_flips):
+    """Per-run statistics used for the intensity (read_count) summary CSV."""
+
+    distinct = {(f["row"], f["byte_in_row"], f["bit_in_byte"]) for f in run_flips}
+    per_cell = defaultdict(set)
+    for row, byte, bit in distinct:
+        per_cell[(row, byte)].add(bit)
+    hist = Counter(len(bits) for bits in per_cell.values())
+
+    adjacent = non_adjacent = 0
+    for bits in per_cell.values():
+        if len(bits) == 2:
+            low, high = sorted(bits)
+            if high - low == 1:
+                adjacent += 1
+            else:
+                non_adjacent += 1
+
+    return {
+        "flips": len(run_flips),
+        "byte_cells": len(per_cell),
+        "single": hist.get(1, 0),
+        "double": hist.get(2, 0),
+        "triple": hist.get(3, 0),
+        "four_plus": sum(count for n, count in hist.items() if n >= 4),
+        "double_adjacent": adjacent,
+        "double_non_adjacent": non_adjacent,
+    }
+
+
+def resolve_read_counts(files):
+    """Maps each bitflips CSV to the read_count of its run.
+
+    Uses the read_count column when present, otherwise falls back to matching the
+    CSVs (in creation order) with the read_count keys of the error_summary JSON.
+    """
+
+    mapping = {}
+    for fname in files:
+        directory = os.path.dirname(fname) or "."
+        jsons = sorted(glob.glob(os.path.join(directory, "error_summary_*.json")))
+        counts = []
+        if jsons:
+            with open(jsons[-1]) as f:
+                counts = sorted(int(k) for k in json.load(f))
+        if not counts:
+            # No summary yet (run still in progress): read the swept counts from the log.
+            logs = sorted(glob.glob(os.path.join(directory, "run.log")))
+            if logs:
+                with open(logs[-1], errors="ignore") as f:
+                    raw = [
+                        int(float(m))
+                        for m in re.findall(r"read_count:\s*([0-9.eE+]+)", f.read())
+                    ]
+                    for value in raw:  # collapse repeated prints of the same count
+                        if value not in counts:
+                            counts.append(value)
+        siblings = sorted(glob.glob(os.path.join(directory, "bitflips_*.csv")))
+        if counts and fname in siblings:
+            # The CSVs are written in the same order as the read_counts are swept, so
+            # map by position (the run may not have written its summary JSON yet).
+            index = siblings.index(fname)
+            mapping[fname] = counts[index] if index < len(counts) else None
+        else:
+            mapping[fname] = None
+    return mapping
+
+
+def write_summary_csv(path, flips, files, read_counts):
+    columns = [
+        "read_count",
+        "flips",
+        "byte_cells",
+        "single",
+        "double",
+        "triple",
+        "four_plus",
+        "double_adjacent",
+        "double_non_adjacent",
+        "non_adjacent_share_percent",
+        "file",
+    ]
+    rows = []
+    for fname in files:
+        stats = run_summary([f for f in flips if f["_file"] == fname])
+        read_count = None
+        for f in flips:
+            if f["_file"] == fname and f["read_count"] is not None:
+                read_count = f["read_count"]
+                break
+        if read_count is None:
+            read_count = read_counts.get(fname)
+        pairs = stats["double_adjacent"] + stats["double_non_adjacent"]
+        stats["read_count"] = read_count if read_count is not None else ""
+        stats["non_adjacent_share_percent"] = (
+            f"{100.0 * stats['double_non_adjacent'] / pairs:.1f}" if pairs else ""
+        )
+        stats["file"] = os.path.basename(fname)
+        rows.append(stats)
+
+    rows.sort(key=lambda r: (r["read_count"] == "", r["read_count"]))
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=columns)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({c: row.get(c, "") for c in columns})
+    return rows
 
 
 def histogram(out, title, counter, keys, total):
@@ -210,6 +325,11 @@ def main():
     parser.add_argument("--top", type=int, default=20, help="Number of hot entries to list (default: 20)")
     parser.add_argument("--out", help="Write the markdown report to this file")
     parser.add_argument("--csv-out", help="Write all flips (combined) to this CSV file")
+    parser.add_argument(
+        "--summary-csv",
+        help="Write a per-run summary CSV (one row per read_count: single/double/triple/4+"
+        " flip bytes and adjacent/non-adjacent double-bit pairs)",
+    )
     args = parser.parse_args()
 
     files = collect_files(args.inputs)
@@ -217,6 +337,18 @@ def main():
         parser.error("no bitflips_*.csv files found for the given inputs")
 
     flips, per_file = load_flips(files)
+
+    if args.summary_csv:
+        rows = write_summary_csv(args.summary_csv, flips, files, resolve_read_counts(files))
+        print(f"read_count | flips | byte cells | single | double | triple | 4+ | adj | non-adj")
+        for r in rows:
+            print(
+                f"{str(r['read_count']):>10} | {r['flips']:>6} | {r['byte_cells']:>10}"
+                f" | {r['single']:>6} | {r['double']:>6} | {r['triple']:>6} | {r['four_plus']:>3}"
+                f" | {r['double_adjacent']:>4} | {r['double_non_adjacent']:>7}"
+            )
+        print(f"summary written to: {args.summary_csv}")
+
     report = build_report(flips, per_file, args.top)
     print(report)
 

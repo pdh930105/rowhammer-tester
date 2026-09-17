@@ -25,3 +25,4 @@ docs/source/build/**
 /vivado_*.log
 /vivado_*.jou
 /vivado_*.backup.*
+results/**/all_flips.csv

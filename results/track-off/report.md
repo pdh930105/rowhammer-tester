@@ -16,7 +16,7 @@
 - victim (row, byte) cells: 6492
 - addresses: 0x40010009 .. 0x7fe8e801
 
-## Top 8 victim rows
+## Top 5 victim rows
 
 | row | flips |
 | --- | --- |
@@ -25,9 +25,6 @@
 | 3 | 14167 |
 | 2631 | 7 |
 | 3761 | 5 |
-| 4693 | 5 |
-| 7365 | 5 |
-| 9583 | 5 |
 
 ## DQ byte lane (byte offset within the 64-bit bus word)
 
@@ -103,7 +100,7 @@
 - bank 6: 87 (0.2%)
 - bank 7: 67 (0.1%)
 
-## Top 8 (row, byte) cells
+## Top 5 (row, byte) cells
 
 | row | byte_in_row | byte_lane | flips |
 | --- | --- | --- | --- |
@@ -112,7 +109,4 @@
 | 2425 | 6293 | 5 | 26 |
 | 1 | 1670 | 6 | 25 |
 | 1 | 3880 | 0 | 25 |
-| 3 | 5997 | 5 | 25 |
-| 1 | 7848 | 0 | 24 |
-| 1 | 293 | 5 | 24 |
 

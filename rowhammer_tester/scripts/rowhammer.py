@@ -210,12 +210,12 @@ class RowHammer:
                 err_dict[str(row)] = {"row": _row, "col": cols, "bitflips": flips}
 
         if self.log_directory and row_errors:
-            self.dump_bitflips(row_errors)
+            self.dump_bitflips(row_errors, _read_count)
 
         if do_error_summary:
             return err_dict
 
-    def dump_bitflips(self, row_errors):
+    def dump_bitflips(self, row_errors, read_count=None):
         """
         Writes every single bit-flip to a CSV file with its full coordinates:
         DRAM row, bank, column, byte offset within the row, bit index within the byte
@@ -227,6 +227,7 @@ class RowHammer:
             writer = csv.writer(f)
             writer.writerow(
                 [
+                    "read_count",
                     "row",
                     "bank",
                     "col",
@@ -256,6 +257,7 @@ class RowHammer:
                             expected_bit = (expected >> pos) & 1
                             writer.writerow(
                                 [
+                                    int(read_count) if read_count is not None else "",
                                     row,
                                     bank,
                                     col,
