@@ -1,0 +1,40 @@
+# ZCU104 DDR4 SO-DIMM Rowhammer Tester — build manifest
+# Gate A (build + artifacts + timing) — PASS
+
+[build]
+target            = zcu104
+board             = Xilinx ZCU104 (xczu7ev-ffvc1156-2-i)
+git_branch        = main
+git_commit        = 2ab8a67fa2f2c588fdb05145d5d1a7ddbde4a412
+command           = PATH=/tools/xilinx/Vivado/2022.2/bin:$PATH make build TARGET=zcu104 ARGS="--from-spd build/zcu104/spd.bin"
+vivado_version    = 2022.2
+finished_at       = 2026-09-16 17:39:23 KST
+spd_source        = build/zcu104/spd.bin (256 bytes, --from-spd)
+
+[result]
+vivado_exit       = 0
+errors            = 0
+critical_warnings = 0
+timing            = All user specified timing constraints are met
+drc_route         = DRC finished with 0 Errors
+bitstream         = write_bitstream completed successfully
+
+[sha256]
+bitstream         = 702d158f83db36eb4b5897855d6d1c98928e019629f9f9d876babbad200b0f97  build/zcu104/gateware/xilinx_zcu104.bit  (19311210 bytes)
+spd.bin           = 791927d0908932e193d8ce95e9aaed67f5b86222676161e905bb81f6cfdb41eb  build/zcu104/spd.bin
+csr.csv           = b60ef3e65d299bd016c91482029d07d6d950cde4332afe4d7570e194b413f52c  build/zcu104/csr.csv
+defs.csv          = dacbbebe2b99766875c11ad20d817585dd59c743f70fd0c0117259773157f654  build/zcu104/defs.csv
+litedram_settings = d8edc8806881ff76f12eb9bb423ae37754bbe2cdcd29ec0b5ef27b24ddfd9edb  build/zcu104/litedram_settings.json
+sdram_init.py     = c901fb9b8c25aa2012bacd89465d1131aefe8652cd99f4cf2eea3ce235721687  build/zcu104/sdram_init.py
+spd.hex           = ce7aed0f1f869749beec38f8457b681668bae0f99546892abcdcbf266ff4cc26  build/zcu104/spd.hex
+xilinx_zcu104.v   = 4b92aa4ec8d6d6a5ac6c457177058eb41a864ba30b7034eed0d96565346659c5  build/zcu104/gateware/xilinx_zcu104.v
+
+[dram_geometry_from_settings]
+memtype           = DDR4
+databits          = 64
+nranks            = 1
+bankbits/rowbits/colbits = 3 / 16 / 10
+
+[notes]
+- SPD init loaded: vivado.log:40 "xilinx_zcu104_sdram_spd.init is read successfully"
+- Bitstream for SD boot must be renamed to zcu104.bit (see docs/source/zcu104.md)

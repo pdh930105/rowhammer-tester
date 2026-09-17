@@ -1,0 +1,10 @@
+Using generated target files in: build/zcu104
+Board info: Row Hammer Tester SoC on xczu7ev-ffvc1156-2-i, git: 2ab8a67fa2f2c588fdb05145d5d1a7ddbde4a412 2026-09-16 17:29:22
+Testing with 0x{p:08x} pattern
+Progress: [                                        ]   231756 / 16777216 Progress: [====================                    ]  8781550 / 16777216 Progress: [================================        ] 13594343 / 16777216 Progress: [======================================  ] 16000450 / 16777216 Progress: [========================================] 16777216 / 16777216 
+Traceback (most recent call last):
+  File "/home/pdh/workspace/rowhammer-tester/rowhammer_tester/scripts/mem_bist.py", line 126, in <module>
+    errors = hw_memtest(wb, 0x0, mem_range, [p], args.dbg)
+  File "/home/pdh/workspace/rowhammer-tester/rowhammer_tester/scripts/utils.py", line 441, in hw_memtest
+    assert wb.regs.reader_ready.read() == 1
+AssertionError

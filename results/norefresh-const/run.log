@@ -1,0 +1,3694 @@
+Using generated target files in: build/zcu104
+Board info: Row Hammer Tester SoC on xczu7ev-ffvc1156-2-i, git: 2ab8a67fa2f2c588fdb05145d5d1a7ddbde4a412 2026-09-16 17:29:22
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 1000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.17M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.34M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.68M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.84M /  1.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.00M /  1.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 21
+Bit-flips for row     3: 28
+Bit-flips for row  2425: 32
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 11000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.18M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.34M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.69M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.87M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.05M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.22M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.40M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.58M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.74M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.91M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.09M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.26M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.44M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.61M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.78M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.95M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.12M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.29M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.47M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.63M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.80M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.98M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.16M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.34M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.51M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.68M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.85M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.02M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.19M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.37M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.57M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.74M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.91M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.08M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.26M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.43M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.61M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.77M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.95M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.13M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.30M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.48M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.66M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.85M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.02M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.19M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.36M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.54M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.71M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.89M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.06M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.23M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.40M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.57M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.75M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.93M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.11M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.29M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.47M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.65M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.81M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.98M / 11.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.00M / 11.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 671
+Bit-flips for row     3: 645
+Bit-flips for row  2425: 748
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 21000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.18M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.34M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.68M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.85M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.01M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.18M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.34M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.51M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.68M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.84M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.01M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.18M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.35M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.53M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.69M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.86M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.03M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.19M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.36M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.53M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.69M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.86M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.03M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.20M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.36M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.53M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.69M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.86M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.03M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.21M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.37M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.54M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.70M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.87M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.04M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.21M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.37M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.54M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.71M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.91M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.08M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.25M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.41M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.58M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.75M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.92M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.10M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.26M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.43M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.60M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.76M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.93M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.10M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.28M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.44M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.61M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.78M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.94M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.11M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.28M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.44M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.61M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.77M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.94M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.11M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.28M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.44M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.61M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.78M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.94M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.11M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.28M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.46M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.62M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.79M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.96M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.12M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.29M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.46M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.63M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.79M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.96M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.13M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.29M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.47M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.98M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.48M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.99M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.48M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.98M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.49M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.99M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.48M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.98M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.48M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.98M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.15M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.32M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.48M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.65M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.82M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.98M / 21.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.00M / 21.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 1055
+Bit-flips for row     3: 1039
+Bit-flips for row  2425: 1199
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 31000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.01M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.18M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.34M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.67M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.84M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.01M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.17M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.35M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.52M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.70M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.88M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.05M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.23M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.39M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.56M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.73M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.90M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.06M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.23M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.41M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.58M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.76M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.94M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.10M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.27M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.45M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.63M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.81M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.98M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.15M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.33M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.49M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.66M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.82M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.99M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.16M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.32M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.49M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.66M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.83M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.99M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.16M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.33M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.49M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.66M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.83M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.99M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.16M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.33M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.49M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.66M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.83M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.99M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.16M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.33M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.49M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.66M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.83M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.99M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.16M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.34M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.50M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.67M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.84M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.01M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.17M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.34M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.51M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.67M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.84M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.01M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.17M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.34M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.51M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.67M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.84M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.01M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.17M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.34M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.51M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.67M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.84M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.02M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.19M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.35M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.52M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.69M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.85M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.02M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.19M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.35M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.52M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.69M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.85M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.02M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.20M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.37M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.53M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.70M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.87M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.05M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.21M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.38M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.55M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.71M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.88M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.05M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.21M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.38M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.55M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.71M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.88M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.05M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.21M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.38M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.55M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.71M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.88M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.05M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.22M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.38M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.55M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.71M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.88M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.04M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.21M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.38M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.55M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.72M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.89M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.06M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.23M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.39M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.56M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.73M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.91M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.07M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.24M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.41M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.58M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.76M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.94M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.10M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.27M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.44M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.60M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.77M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.94M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.10M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.27M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.44M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.60M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.77M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.95M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.12M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.28M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.45M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.62M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.78M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.95M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.12M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.29M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.47M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.65M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.81M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.98M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.14M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.31M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.48M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.64M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.81M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.98M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.14M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.31M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.48M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.65M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.81M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.98M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.14M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.31M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.48M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.64M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.81M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.98M / 31.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.00M / 31.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 1373
+Bit-flips for row     3: 1301
+Bit-flips for row  2425: 1483
+Bit-flips for row  2631: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 41000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.24M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.78M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.11M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.62M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.80M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.99M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.16M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.34M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.51M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.67M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.85M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.02M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.20M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.05M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.72M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.90M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.08M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.26M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.42M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.13M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.31M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.49M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.66M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.84M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.02M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.19M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.37M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.05M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.05M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.72M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.90M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.08M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.24M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.42M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.78M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.13M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.30M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.48M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.66M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.83M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.01M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.18M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.35M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.54M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.06M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.23M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.41M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.58M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.76M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.92M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.09M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.26M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.44M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.44M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.94M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.26M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.94M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.12M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.61M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.78M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.11M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.61M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.78M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.11M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.61M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.78M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.95M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.12M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.63M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.80M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.96M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.13M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.30M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.48M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.64M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.81M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.97M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.14M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.31M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.48M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.64M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.82M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.99M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.16M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.32M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.49M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.66M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.82M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.99M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.16M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.32M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.49M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.66M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.82M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.99M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.16M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.32M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.49M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.67M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.84M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.00M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.17M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.34M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.50M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.67M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.84M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.00M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.17M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.35M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.53M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.05M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.05M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.54M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.04M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.21M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.38M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.55M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.71M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.88M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.07M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.24M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.41M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.76M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.93M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.10M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.27M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.43M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.60M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.77M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.94M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.11M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.28M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.45M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.62M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.79M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.96M / 41.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.00M / 41.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 1575
+Bit-flips for row     3: 1520
+Bit-flips for row  2425: 1722
+Bit-flips for row  2631: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 51000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.18M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.35M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.68M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.85M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.01M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.18M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.35M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.51M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.68M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.85M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.01M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.18M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.34M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.51M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.68M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.04M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.21M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.54M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.71M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.87M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.04M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.21M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.54M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.71M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.87M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.04M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.20M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.70M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.87M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.04M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.20M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.54M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.70M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.87M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.04M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.21M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.54M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.71M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.89M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.05M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.22M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.39M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.56M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.73M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.24M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.24M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.24M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.24M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.23M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.92M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.08M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.25M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.42M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.58M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.75M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.92M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.08M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.25M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.42M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.60M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.79M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.96M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.14M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.32M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.48M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.65M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.82M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.98M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.15M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.33M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.50M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.67M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.83M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.00M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.18M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.35M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.70M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.88M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.06M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.24M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.42M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.60M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.78M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.95M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.12M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.29M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.46M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.62M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.79M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.96M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.12M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.29M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.46M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.62M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.79M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.96M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.12M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.29M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.46M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.62M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.79M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.95M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.12M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.29M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.46M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.62M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.79M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.96M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.14M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.30M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.47M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.65M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.82M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.99M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.17M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.33M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.21M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.38M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.56M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.74M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.90M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.08M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.25M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.43M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.61M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.77M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.94M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.11M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.30M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.47M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.64M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.80M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.97M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.14M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.32M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.49M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.67M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.85M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.02M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.19M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.36M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.52M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.03M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.20M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.37M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.54M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.71M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.89M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.05M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.22M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.39M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.55M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.72M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.89M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.05M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.22M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.39M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.55M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.72M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.89M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.07M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.23M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.40M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.57M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.75M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.91M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.08M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.25M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.41M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.58M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.75M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.93M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.09M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.27M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.44M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.61M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.77M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.95M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.12M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.29M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.46M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.64M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.82M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.98M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.15M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.32M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.48M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.65M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.82M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.98M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.15M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.32M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.48M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.65M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.82M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.99M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.17M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.33M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.50M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.67M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.83M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.00M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.17M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.35M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.53M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.69M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.86M / 51.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.00M / 51.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 1751
+Bit-flips for row     3: 1693
+Bit-flips for row  2425: 1920
+Bit-flips for row  2631: 1
+Bit-flips for row  3761: 1
+Bit-flips for row  4693: 1
+Bit-flips for row  5712: 1
+Bit-flips for row  7365: 1
+Bit-flips for row  9583: 1
+Bit-flips for row 15653: 1
+Bit-flips for row 16211: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 61000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.87M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.38M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.56M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.73M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.89M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.23M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.41M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.76M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.92M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.10M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.27M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.44M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.62M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.80M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.14M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.31M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.48M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.66M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.84M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.01M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.52M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.88M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.26M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.44M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.60M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.79M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.97M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.16M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.51M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.84M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.01M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.50M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.84M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.00M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.51M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.69M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.85M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.02M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.19M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.86M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.38M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.55M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.88M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.05M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.21M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.38M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.55M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.88M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.05M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.22M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.41M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.76M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.92M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.10M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.30M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.46M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.15M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.66M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.83M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.01M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.35M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.88M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.42M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.77M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.94M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.10M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.28M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.45M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.62M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.78M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.95M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.13M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.31M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.48M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.15M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.52M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.87M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.21M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.38M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.56M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.74M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.92M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.09M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.27M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.45M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.61M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.78M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.95M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.13M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.30M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.47M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.65M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.82M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.99M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.16M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.65M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.82M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.15M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.66M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.82M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.99M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.16M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.84M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.00M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.50M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.68M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.85M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.02M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.18M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.35M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.52M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.86M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.86M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.19M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.88M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.04M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.21M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.38M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.56M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.73M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.89M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.07M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.40M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.58M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.75M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.92M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.10M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.27M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.43M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.60M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.77M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.95M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.13M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.31M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.47M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.14M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.31M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.48M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.99M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.34M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.50M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.83M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.00M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.17M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.35M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.52M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.68M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.85M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.02M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.18M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.86M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.86M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.70M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.87M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.42M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.77M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.96M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.14M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.69M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.87M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.05M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.23M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.41M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.57M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.76M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.94M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.11M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.28M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.46M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.63M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.80M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.98M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.15M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.66M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.83M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.01M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.18M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.35M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.89M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.41M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.75M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.92M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.10M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.28M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.45M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.62M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.79M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.96M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.13M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.30M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.48M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.99M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.16M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.84M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.00M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.18M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.35M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.89M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.41M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.57M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.74M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.91M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.09M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.25M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.42M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.59M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.75M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.94M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.11M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.28M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.45M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.61M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.78M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.95M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.13M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.30M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.47M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.97M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.14M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.31M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.47M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.64M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.81M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.97M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.14M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.32M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.49M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.67M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.85M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.03M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.20M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.36M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.53M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.71M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.89M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.06M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.24M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.42M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.60M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.77M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.93M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.11M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.28M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.45M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.61M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.78M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.95M / 61.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.00M / 61.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 1901
+Bit-flips for row     3: 1817
+Bit-flips for row   293: 1
+Bit-flips for row  1415: 1
+Bit-flips for row  2286: 1
+Bit-flips for row  2327: 1
+Bit-flips for row  2425: 2073
+Bit-flips for row  2631: 1
+Bit-flips for row  3146: 1
+Bit-flips for row  3430: 1
+Bit-flips for row  3761: 1
+Bit-flips for row  4488: 1
+Bit-flips for row  4693: 1
+Bit-flips for row  5266: 1
+Bit-flips for row  5494: 1
+Bit-flips for row  5697: 1
+Bit-flips for row  5712: 1
+Bit-flips for row  5782: 1
+Bit-flips for row  6443: 1
+Bit-flips for row  6730: 1
+Bit-flips for row  6892: 1
+Bit-flips for row  7365: 1
+Bit-flips for row  7538: 1
+Bit-flips for row  8282: 1
+Bit-flips for row  9394: 1
+Bit-flips for row  9583: 1
+Bit-flips for row  9602: 1
+Bit-flips for row  9978: 1
+Bit-flips for row 10042: 1
+Bit-flips for row 10615: 1
+Bit-flips for row 10769: 1
+Bit-flips for row 12533: 1
+Bit-flips for row 13443: 1
+Bit-flips for row 15086: 1
+Bit-flips for row 15653: 1
+Bit-flips for row 15843: 1
+Bit-flips for row 16211: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 71000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.20M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.37M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.55M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.71M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.88M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.23M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.57M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.74M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.92M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.08M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.25M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.42M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.59M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.75M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.93M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.10M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.27M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.43M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.60M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.77M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.93M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.11M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.28M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.95M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.12M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.28M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.94M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.12M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.28M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.30M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.47M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.81M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.98M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.14M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.31M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.48M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.65M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.83M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.70M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.86M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.03M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.20M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.36M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.71M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.88M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.05M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.21M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.73M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.23M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.74M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.92M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.10M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.27M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.43M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.60M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.65M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.83M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.70M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.07M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.26M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.44M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.14M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.33M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.50M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.67M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.50M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.67M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.86M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.03M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.19M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.36M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.70M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.87M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.05M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.74M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.91M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.08M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.25M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.43M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.60M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.95M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.31M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.48M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.65M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.82M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.99M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.16M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.32M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.49M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.65M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.82M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.99M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.16M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.50M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.67M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.71M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.73M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.23M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.41M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.59M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.77M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.95M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.12M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.31M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.47M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.82M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.17M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.50M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.67M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.20M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.38M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.74M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.91M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.08M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.25M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.42M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.59M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.94M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.11M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.28M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.94M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.11M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.28M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.44M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.62M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.12M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.62M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.83M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.00M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.84M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.34M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.70M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.88M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.58M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.75M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.92M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.10M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.27M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.12M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.46M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.63M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.96M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.29M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.48M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.66M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.05M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.23M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.40M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.57M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.75M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.93M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.10M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.27M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.45M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.78M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.95M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.13M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.30M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.47M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.82M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.51M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.68M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.85M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.01M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.18M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.35M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.52M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.70M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.86M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.19M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.36M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.69M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.86M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.19M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.36M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.53M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.69M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.86M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.02M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.19M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.37M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.54M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.72M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.05M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.55M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.72M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.06M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.39M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.56M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.72M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.89M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.05M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.22M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.40M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.57M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.74M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.92M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.09M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.27M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.44M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.61M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.79M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.97M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.14M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.31M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.47M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.80M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.97M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.14M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.30M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.47M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.64M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.81M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.97M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.15M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.32M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.48M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.65M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.82M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.99M / 71.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.00M / 71.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 2032
+Bit-flips for row     3: 1946
+Bit-flips for row    20: 1
+Bit-flips for row   156: 1
+Bit-flips for row   293: 1
+Bit-flips for row   318: 1
+Bit-flips for row   417: 1
+Bit-flips for row   733: 1
+Bit-flips for row   893: 1
+Bit-flips for row   971: 1
+Bit-flips for row  1415: 1
+Bit-flips for row  1788: 1
+Bit-flips for row  1991: 1
+Bit-flips for row  2327: 1
+Bit-flips for row  2425: 2191
+Bit-flips for row  2631: 1
+Bit-flips for row  3091: 1
+Bit-flips for row  3146: 1
+Bit-flips for row  3174: 1
+Bit-flips for row  3430: 1
+Bit-flips for row  3442: 1
+Bit-flips for row  3509: 1
+Bit-flips for row  3761: 1
+Bit-flips for row  3935: 1
+Bit-flips for row  4244: 1
+Bit-flips for row  4320: 1
+Bit-flips for row  4434: 1
+Bit-flips for row  4477: 1
+Bit-flips for row  4479: 1
+Bit-flips for row  4488: 1
+Bit-flips for row  4693: 1
+Bit-flips for row  4851: 1
+Bit-flips for row  5266: 1
+Bit-flips for row  5345: 1
+Bit-flips for row  5494: 1
+Bit-flips for row  5697: 1
+Bit-flips for row  5712: 1
+Bit-flips for row  5737: 1
+Bit-flips for row  5782: 1
+Bit-flips for row  6054: 1
+Bit-flips for row  6098: 1
+Bit-flips for row  6285: 1
+Bit-flips for row  6322: 1
+Bit-flips for row  6435: 1
+Bit-flips for row  6443: 1
+Bit-flips for row  6730: 1
+Bit-flips for row  6892: 1
+Bit-flips for row  7030: 1
+Bit-flips for row  7143: 1
+Bit-flips for row  7270: 1
+Bit-flips for row  7365: 1
+Bit-flips for row  7538: 1
+Bit-flips for row  7969: 1
+Bit-flips for row  7995: 1
+Bit-flips for row  8007: 1
+Bit-flips for row  8282: 1
+Bit-flips for row  8370: 1
+Bit-flips for row  8374: 1
+Bit-flips for row  8713: 1
+Bit-flips for row  9394: 1
+Bit-flips for row  9583: 1
+Bit-flips for row  9602: 1
+Bit-flips for row  9692: 1
+Bit-flips for row  9978: 1
+Bit-flips for row 10042: 1
+Bit-flips for row 10419: 1
+Bit-flips for row 10488: 1
+Bit-flips for row 10615: 1
+Bit-flips for row 10689: 1
+Bit-flips for row 10705: 1
+Bit-flips for row 10766: 1
+Bit-flips for row 10769: 1
+Bit-flips for row 10793: 1
+Bit-flips for row 10848: 1
+Bit-flips for row 10887: 1
+Bit-flips for row 11024: 1
+Bit-flips for row 11310: 1
+Bit-flips for row 11376: 1
+Bit-flips for row 11545: 1
+Bit-flips for row 11629: 1
+Bit-flips for row 11826: 1
+Bit-flips for row 12025: 1
+Bit-flips for row 12451: 1
+Bit-flips for row 12533: 1
+Bit-flips for row 13205: 1
+Bit-flips for row 13443: 1
+Bit-flips for row 13748: 1
+Bit-flips for row 14118: 1
+Bit-flips for row 14314: 1
+Bit-flips for row 14430: 1
+Bit-flips for row 15086: 1
+Bit-flips for row 15363: 1
+Bit-flips for row 15543: 1
+Bit-flips for row 15592: 1
+Bit-flips for row 15653: 1
+Bit-flips for row 15843: 1
+Bit-flips for row 16001: 1
+Bit-flips for row 16211: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 81000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.35M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.52M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.87M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.05M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.59M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.13M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.49M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.68M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.85M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.04M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.22M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.40M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.58M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.92M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.10M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.27M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.79M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.96M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.13M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.29M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.46M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.63M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.96M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.13M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.30M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.48M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.65M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.83M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.99M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.16M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.51M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.69M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.87M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.38M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.90M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.06M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.39M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.06M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.39M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.91M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.07M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.24M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.58M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.76M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.93M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.10M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.27M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.60M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.12M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.30M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.49M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.85M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.37M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.55M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.72M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.08M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.26M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.97M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.48M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.66M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.83M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.01M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.19M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.35M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.52M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.88M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.05M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.57M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.91M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.08M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.26M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.96M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.13M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.30M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.46M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.63M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.83M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.01M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.19M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.71M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.88M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.05M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.39M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.06M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.39M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.91M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.07M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.24M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.57M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.92M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.09M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.27M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.43M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.12M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.12M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.30M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.46M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.66M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.68M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.85M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.02M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.18M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.35M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.52M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.68M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.85M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.88M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.05M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.38M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.56M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.07M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.24M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.40M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.57M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.91M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.09M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.25M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.42M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.60M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.96M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.16M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.32M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.49M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.02M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.38M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.55M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.73M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.07M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.25M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.42M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.94M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.13M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.47M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.64M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.81M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.98M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.26M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.98M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.47M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.64M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.81M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.98M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.47M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.64M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.81M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.97M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.16M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.32M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.02M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.18M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.35M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.52M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.69M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.86M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.86M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.87M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.05M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.23M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.57M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.92M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.09M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.27M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.44M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.62M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.97M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.48M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.66M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.68M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.85M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.04M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.39M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.57M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.74M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.91M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.09M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.25M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.43M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.60M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.98M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.16M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.32M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.49M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.66M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.02M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.86M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.03M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.38M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.54M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.72M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.06M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.24M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.41M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.59M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.75M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.92M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.10M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.80M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.97M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.31M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.48M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.64M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.81M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.97M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.14M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.32M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.49M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.83M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.00M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.17M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.34M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.50M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.67M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.84M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.02M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.20M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.36M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.53M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.70M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.86M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.04M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.21M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.38M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.54M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.72M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.89M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.07M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.24M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.42M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.59M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.75M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.93M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.10M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.27M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.95M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.11M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.28M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.45M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.61M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.78M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.96M / 81.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.00M / 81.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 2132
+Bit-flips for row     3: 2059
+Bit-flips for row    20: 1
+Bit-flips for row   156: 1
+Bit-flips for row   293: 1
+Bit-flips for row   318: 1
+Bit-flips for row   370: 2
+Bit-flips for row   417: 1
+Bit-flips for row   433: 1
+Bit-flips for row   453: 1
+Bit-flips for row   540: 1
+Bit-flips for row   733: 1
+Bit-flips for row   879: 1
+Bit-flips for row   893: 1
+Bit-flips for row   971: 1
+Bit-flips for row  1048: 1
+Bit-flips for row  1111: 1
+Bit-flips for row  1170: 1
+Bit-flips for row  1402: 1
+Bit-flips for row  1409: 2
+Bit-flips for row  1415: 1
+Bit-flips for row  1449: 1
+Bit-flips for row  1622: 1
+Bit-flips for row  1788: 1
+Bit-flips for row  1929: 1
+Bit-flips for row  1945: 1
+Bit-flips for row  1991: 1
+Bit-flips for row  2018: 1
+Bit-flips for row  2186: 1
+Bit-flips for row  2272: 1
+Bit-flips for row  2286: 1
+Bit-flips for row  2297: 1
+Bit-flips for row  2327: 1
+Bit-flips for row  2425: 2314
+Bit-flips for row  2631: 1
+Bit-flips for row  2780: 1
+Bit-flips for row  2789: 1
+Bit-flips for row  2859: 1
+Bit-flips for row  3091: 1
+Bit-flips for row  3124: 1
+Bit-flips for row  3146: 1
+Bit-flips for row  3174: 1
+Bit-flips for row  3182: 1
+Bit-flips for row  3385: 1
+Bit-flips for row  3430: 1
+Bit-flips for row  3442: 1
+Bit-flips for row  3509: 1
+Bit-flips for row  3566: 1
+Bit-flips for row  3675: 1
+Bit-flips for row  3760: 1
+Bit-flips for row  3761: 1
+Bit-flips for row  3816: 1
+Bit-flips for row  3840: 1
+Bit-flips for row  3887: 1
+Bit-flips for row  3935: 1
+Bit-flips for row  3971: 1
+Bit-flips for row  4168: 1
+Bit-flips for row  4244: 1
+Bit-flips for row  4320: 1
+Bit-flips for row  4431: 1
+Bit-flips for row  4434: 1
+Bit-flips for row  4477: 1
+Bit-flips for row  4479: 1
+Bit-flips for row  4488: 1
+Bit-flips for row  4505: 1
+Bit-flips for row  4549: 1
+Bit-flips for row  4619: 1
+Bit-flips for row  4654: 1
+Bit-flips for row  4665: 1
+Bit-flips for row  4693: 1
+Bit-flips for row  4711: 1
+Bit-flips for row  4851: 1
+Bit-flips for row  4865: 1
+Bit-flips for row  4961: 1
+Bit-flips for row  5098: 1
+Bit-flips for row  5266: 1
+Bit-flips for row  5345: 1
+Bit-flips for row  5346: 1
+Bit-flips for row  5367: 1
+Bit-flips for row  5395: 1
+Bit-flips for row  5485: 1
+Bit-flips for row  5494: 1
+Bit-flips for row  5527: 1
+Bit-flips for row  5589: 1
+Bit-flips for row  5624: 1
+Bit-flips for row  5672: 1
+Bit-flips for row  5673: 1
+Bit-flips for row  5697: 1
+Bit-flips for row  5712: 1
+Bit-flips for row  5737: 1
+Bit-flips for row  5782: 1
+Bit-flips for row  6054: 1
+Bit-flips for row  6098: 1
+Bit-flips for row  6285: 1
+Bit-flips for row  6322: 1
+Bit-flips for row  6435: 1
+Bit-flips for row  6443: 1
+Bit-flips for row  6491: 1
+Bit-flips for row  6730: 1
+Bit-flips for row  6860: 1
+Bit-flips for row  6891: 1
+Bit-flips for row  6892: 1
+Bit-flips for row  6927: 1
+Bit-flips for row  6956: 1
+Bit-flips for row  6962: 1
+Bit-flips for row  6967: 1
+Bit-flips for row  7030: 1
+Bit-flips for row  7108: 1
+Bit-flips for row  7143: 1
+Bit-flips for row  7270: 1
+Bit-flips for row  7365: 1
+Bit-flips for row  7506: 1
+Bit-flips for row  7538: 1
+Bit-flips for row  7659: 1
+Bit-flips for row  7969: 1
+Bit-flips for row  7995: 1
+Bit-flips for row  8007: 1
+Bit-flips for row  8044: 1
+Bit-flips for row  8282: 1
+Bit-flips for row  8370: 1
+Bit-flips for row  8374: 1
+Bit-flips for row  8380: 1
+Bit-flips for row  8484: 1
+Bit-flips for row  8655: 1
+Bit-flips for row  8713: 1
+Bit-flips for row  9321: 1
+Bit-flips for row  9375: 1
+Bit-flips for row  9394: 1
+Bit-flips for row  9507: 1
+Bit-flips for row  9583: 1
+Bit-flips for row  9600: 1
+Bit-flips for row  9602: 1
+Bit-flips for row  9603: 1
+Bit-flips for row  9692: 1
+Bit-flips for row  9868: 1
+Bit-flips for row  9908: 1
+Bit-flips for row  9956: 1
+Bit-flips for row  9978: 1
+Bit-flips for row 10042: 1
+Bit-flips for row 10058: 1
+Bit-flips for row 10288: 1
+Bit-flips for row 10329: 1
+Bit-flips for row 10411: 1
+Bit-flips for row 10419: 1
+Bit-flips for row 10488: 1
+Bit-flips for row 10615: 1
+Bit-flips for row 10639: 1
+Bit-flips for row 10667: 1
+Bit-flips for row 10689: 1
+Bit-flips for row 10705: 1
+Bit-flips for row 10734: 1
+Bit-flips for row 10766: 1
+Bit-flips for row 10769: 1
+Bit-flips for row 10787: 1
+Bit-flips for row 10793: 1
+Bit-flips for row 10848: 1
+Bit-flips for row 10887: 1
+Bit-flips for row 10995: 1
+Bit-flips for row 11024: 1
+Bit-flips for row 11063: 1
+Bit-flips for row 11086: 1
+Bit-flips for row 11119: 1
+Bit-flips for row 11261: 1
+Bit-flips for row 11310: 1
+Bit-flips for row 11376: 1
+Bit-flips for row 11545: 1
+Bit-flips for row 11562: 1
+Bit-flips for row 11629: 1
+Bit-flips for row 11818: 1
+Bit-flips for row 11826: 1
+Bit-flips for row 11835: 1
+Bit-flips for row 12007: 1
+Bit-flips for row 12025: 1
+Bit-flips for row 12451: 1
+Bit-flips for row 12533: 1
+Bit-flips for row 12534: 1
+Bit-flips for row 12631: 1
+Bit-flips for row 12915: 1
+Bit-flips for row 13205: 1
+Bit-flips for row 13264: 1
+Bit-flips for row 13304: 1
+Bit-flips for row 13372: 1
+Bit-flips for row 13443: 1
+Bit-flips for row 13512: 1
+Bit-flips for row 13748: 1
+Bit-flips for row 14118: 1
+Bit-flips for row 14314: 1
+Bit-flips for row 14360: 2
+Bit-flips for row 14430: 1
+Bit-flips for row 14515: 1
+Bit-flips for row 14661: 1
+Bit-flips for row 14671: 1
+Bit-flips for row 14810: 1
+Bit-flips for row 14862: 1
+Bit-flips for row 14904: 1
+Bit-flips for row 15022: 1
+Bit-flips for row 15045: 1
+Bit-flips for row 15086: 1
+Bit-flips for row 15127: 1
+Bit-flips for row 15201: 1
+Bit-flips for row 15267: 1
+Bit-flips for row 15281: 1
+Bit-flips for row 15363: 1
+Bit-flips for row 15366: 1
+Bit-flips for row 15441: 1
+Bit-flips for row 15592: 1
+Bit-flips for row 15653: 1
+Bit-flips for row 15843: 1
+Bit-flips for row 16001: 1
+Bit-flips for row 16015: 1
+Bit-flips for row 16211: 1
+Bit-flips for row 16336: 1
+Bit-flips for row 16360: 1
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Disabling refresh ...
+
+Running Rowhammer attacks ...
+read_count: 91000000
+  Iter 1 / 1 Rows = (0, 2), Count =  0.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  0.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  1.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.21M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.38M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.71M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  2.88M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.04M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  3.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.06M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  4.95M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.30M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.81M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  5.99M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.34M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  6.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.36M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  7.91M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.42M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.75M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  8.92M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.10M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.27M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.77M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count =  9.93M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.10M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.26M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.76M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 10.93M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.28M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.63M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.79M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 11.96M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.12M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.63M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.79M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 12.96M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.13M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.63M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.81M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 13.97M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.15M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.32M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.49M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 14.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 15.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.35M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 16.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.21M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.37M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 17.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 18.92M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.42M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 19.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.82M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 20.99M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 21.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 22.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 23.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.21M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.56M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 24.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.06M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.24M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 25.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.10M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.28M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.44M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.61M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.79M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 26.96M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.12M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.81M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 27.97M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.14M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.31M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 28.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.35M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.53M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.71M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 29.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.56M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 30.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.27M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.44M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.61M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 31.95M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.13M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.31M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.81M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 32.99M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 33.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.35M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 34.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.02M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.20M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.38M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.71M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 35.87M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 36.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 37.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 38.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.42M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.75M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 39.93M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.28M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.44M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.61M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 40.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.28M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.44M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.61M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 41.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.27M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.44M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.61M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 42.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.28M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.80M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 43.97M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.14M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.32M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 44.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.19M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.36M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.53M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.69M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 45.88M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.06M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 46.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 47.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.06M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 48.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 49.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.41M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.75M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 50.91M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.41M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.75M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 51.93M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.80M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 52.97M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.15M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.32M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.49M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 53.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.17M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 54.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 55.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 56.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 57.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.21M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 58.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 59.96M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.14M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.30M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.81M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 60.98M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.15M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.66M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 61.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 62.85M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.19M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.38M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.74M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 63.92M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.09M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.26M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.60M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.78M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 64.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.46M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.62M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.79M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 65.98M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.15M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.31M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.48M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.65M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.82M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 66.98M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.15M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.67M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 67.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.34M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 68.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.35M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 69.86M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.21M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.37M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 70.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.24M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.41M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.76M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 71.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.11M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.30M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.65M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 72.83M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 73.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.34M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.51M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 74.84M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.01M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.18M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.36M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.71M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 75.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 76.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 77.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 78.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.07M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.23M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.58M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.75M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 79.91M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.08M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.25M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.42M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.59M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.76M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 80.93M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.09M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.26M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.43M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.59M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.76M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 81.94M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 82.12M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 82.29M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 82.47M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 82.64M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 82.80M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.00M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.16M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.33M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.50M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.68M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 83.86M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.02M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.19M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.36M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.70M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 84.87M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.04M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.20M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.37M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.70M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 85.87M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.03M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.20M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.37M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.54M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.70M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 86.87M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.04M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.20M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.37M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 87.89M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 88.88M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.39M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.55M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.72M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 89.88M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.05M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.22M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.40M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.57M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.73M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 90.90M / 91.00M  
+  Iter 1 / 1 Rows = (0, 2), Count = 91.00M / 91.00M  
+
+Reenabling refresh ...
+
+Verifying attacked memory ...
+
+Bit-flips for row     1: 2233
+Bit-flips for row     3: 2151
+Bit-flips for row    20: 1
+Bit-flips for row    61: 1
+Bit-flips for row   156: 1
+Bit-flips for row   277: 1
+Bit-flips for row   293: 1
+Bit-flips for row   318: 1
+Bit-flips for row   370: 2
+Bit-flips for row   417: 1
+Bit-flips for row   433: 1
+Bit-flips for row   453: 1
+Bit-flips for row   540: 1
+Bit-flips for row   733: 1
+Bit-flips for row   755: 1
+Bit-flips for row   764: 1
+Bit-flips for row   861: 1
+Bit-flips for row   879: 1
+Bit-flips for row   883: 1
+Bit-flips for row   893: 1
+Bit-flips for row   894: 1
+Bit-flips for row   971: 1
+Bit-flips for row  1004: 1
+Bit-flips for row  1024: 1
+Bit-flips for row  1048: 1
+Bit-flips for row  1111: 1
+Bit-flips for row  1118: 1
+Bit-flips for row  1145: 1
+Bit-flips for row  1170: 2
+Bit-flips for row  1290: 1
+Bit-flips for row  1359: 1
+Bit-flips for row  1402: 1
+Bit-flips for row  1409: 3
+Bit-flips for row  1415: 1
+Bit-flips for row  1449: 1
+Bit-flips for row  1516: 1
+Bit-flips for row  1622: 1
+Bit-flips for row  1708: 1
+Bit-flips for row  1779: 1
+Bit-flips for row  1788: 1
+Bit-flips for row  1833: 1
+Bit-flips for row  1929: 1
+Bit-flips for row  1945: 1
+Bit-flips for row  1991: 1
+Bit-flips for row  2018: 1
+Bit-flips for row  2079: 1
+Bit-flips for row  2107: 1
+Bit-flips for row  2127: 1
+Bit-flips for row  2157: 1
+Bit-flips for row  2186: 1
+Bit-flips for row  2194: 1
+Bit-flips for row  2272: 1
+Bit-flips for row  2286: 1
+Bit-flips for row  2297: 1
+Bit-flips for row  2327: 1
+Bit-flips for row  2425: 2416
+Bit-flips for row  2587: 1
+Bit-flips for row  2631: 1
+Bit-flips for row  2723: 1
+Bit-flips for row  2747: 1
+Bit-flips for row  2780: 1
+Bit-flips for row  2789: 1
+Bit-flips for row  2859: 1
+Bit-flips for row  2885: 1
+Bit-flips for row  3036: 1
+Bit-flips for row  3091: 1
+Bit-flips for row  3109: 1
+Bit-flips for row  3118: 1
+Bit-flips for row  3124: 1
+Bit-flips for row  3146: 1
+Bit-flips for row  3170: 1
+Bit-flips for row  3174: 1
+Bit-flips for row  3182: 1
+Bit-flips for row  3197: 1
+Bit-flips for row  3249: 1
+Bit-flips for row  3294: 1
+Bit-flips for row  3314: 1
+Bit-flips for row  3328: 1
+Bit-flips for row  3385: 1
+Bit-flips for row  3403: 1
+Bit-flips for row  3408: 1
+Bit-flips for row  3430: 1
+Bit-flips for row  3437: 1
+Bit-flips for row  3442: 1
+Bit-flips for row  3444: 1
+Bit-flips for row  3509: 1
+Bit-flips for row  3528: 1
+Bit-flips for row  3566: 1
+Bit-flips for row  3573: 1
+Bit-flips for row  3675: 1
+Bit-flips for row  3760: 1
+Bit-flips for row  3761: 1
+Bit-flips for row  3765: 1
+Bit-flips for row  3783: 1
+Bit-flips for row  3816: 1
+Bit-flips for row  3840: 1
+Bit-flips for row  3879: 1
+Bit-flips for row  3880: 1
+Bit-flips for row  3887: 1
+Bit-flips for row  3935: 1
+Bit-flips for row  3961: 1
+Bit-flips for row  3971: 1
+Bit-flips for row  3973: 1
+Bit-flips for row  4033: 1
+Bit-flips for row  4097: 1
+Bit-flips for row  4168: 1
+Bit-flips for row  4244: 1
+Bit-flips for row  4320: 1
+Bit-flips for row  4393: 1
+Bit-flips for row  4411: 1
+Bit-flips for row  4430: 1
+Bit-flips for row  4431: 1
+Bit-flips for row  4434: 1
+Bit-flips for row  4437: 1
+Bit-flips for row  4460: 1
+Bit-flips for row  4462: 1
+Bit-flips for row  4477: 1
+Bit-flips for row  4479: 1
+Bit-flips for row  4481: 1
+Bit-flips for row  4488: 1
+Bit-flips for row  4505: 1
+Bit-flips for row  4549: 1
+Bit-flips for row  4619: 1
+Bit-flips for row  4630: 1
+Bit-flips for row  4654: 1
+Bit-flips for row  4659: 1
+Bit-flips for row  4665: 1
+Bit-flips for row  4693: 1
+Bit-flips for row  4711: 1
+Bit-flips for row  4798: 1
+Bit-flips for row  4851: 1
+Bit-flips for row  4854: 1
+Bit-flips for row  4865: 1
+Bit-flips for row  4869: 1
+Bit-flips for row  4961: 1
+Bit-flips for row  4992: 1
+Bit-flips for row  5022: 1
+Bit-flips for row  5063: 1
+Bit-flips for row  5098: 1
+Bit-flips for row  5140: 1
+Bit-flips for row  5185: 1
+Bit-flips for row  5187: 1
+Bit-flips for row  5188: 1
+Bit-flips for row  5209: 1
+Bit-flips for row  5261: 1
+Bit-flips for row  5266: 1
+Bit-flips for row  5269: 1
+Bit-flips for row  5345: 1
+Bit-flips for row  5346: 1
+Bit-flips for row  5367: 1
+Bit-flips for row  5395: 1
+Bit-flips for row  5478: 1
+Bit-flips for row  5485: 2
+Bit-flips for row  5494: 1
+Bit-flips for row  5527: 1
+Bit-flips for row  5533: 1
+Bit-flips for row  5589: 1
+Bit-flips for row  5607: 1
+Bit-flips for row  5618: 1
+Bit-flips for row  5624: 1
+Bit-flips for row  5652: 2
+Bit-flips for row  5672: 1
+Bit-flips for row  5673: 1
+Bit-flips for row  5697: 1
+Bit-flips for row  5712: 1
+Bit-flips for row  5737: 1
+Bit-flips for row  5779: 1
+Bit-flips for row  5782: 1
+Bit-flips for row  5810: 1
+Bit-flips for row  5840: 1
+Bit-flips for row  5930: 1
+Bit-flips for row  5968: 1
+Bit-flips for row  5969: 1
+Bit-flips for row  6054: 1
+Bit-flips for row  6075: 1
+Bit-flips for row  6098: 1
+Bit-flips for row  6136: 1
+Bit-flips for row  6220: 1
+Bit-flips for row  6265: 2
+Bit-flips for row  6285: 1
+Bit-flips for row  6322: 1
+Bit-flips for row  6435: 1
+Bit-flips for row  6443: 1
+Bit-flips for row  6462: 1
+Bit-flips for row  6489: 1
+Bit-flips for row  6491: 1
+Bit-flips for row  6618: 1
+Bit-flips for row  6730: 1
+Bit-flips for row  6764: 1
+Bit-flips for row  6774: 1
+Bit-flips for row  6860: 1
+Bit-flips for row  6874: 1
+Bit-flips for row  6879: 1
+Bit-flips for row  6891: 1
+Bit-flips for row  6892: 1
+Bit-flips for row  6927: 1
+Bit-flips for row  6956: 1
+Bit-flips for row  6962: 1
+Bit-flips for row  6967: 1
+Bit-flips for row  6981: 1
+Bit-flips for row  7030: 1
+Bit-flips for row  7054: 1
+Bit-flips for row  7107: 1
+Bit-flips for row  7108: 1
+Bit-flips for row  7128: 1
+Bit-flips for row  7143: 1
+Bit-flips for row  7204: 1
+Bit-flips for row  7263: 1
+Bit-flips for row  7270: 1
+Bit-flips for row  7365: 1
+Bit-flips for row  7405: 1
+Bit-flips for row  7506: 1
+Bit-flips for row  7538: 1
+Bit-flips for row  7647: 1
+Bit-flips for row  7659: 1
+Bit-flips for row  7770: 1
+Bit-flips for row  7839: 1
+Bit-flips for row  7868: 1
+Bit-flips for row  7911: 1
+Bit-flips for row  7931: 1
+Bit-flips for row  7969: 1
+Bit-flips for row  7995: 1
+Bit-flips for row  8007: 1
+Bit-flips for row  8014: 1
+Bit-flips for row  8044: 1
+Bit-flips for row  8057: 1
+Bit-flips for row  8208: 1
+Bit-flips for row  8282: 1
+Bit-flips for row  8331: 1
+Bit-flips for row  8370: 1
+Bit-flips for row  8374: 1
+Bit-flips for row  8380: 1
+Bit-flips for row  8384: 1
+Bit-flips for row  8409: 1
+Bit-flips for row  8433: 1
+Bit-flips for row  8484: 1
+Bit-flips for row  8655: 1
+Bit-flips for row  8697: 1
+Bit-flips for row  8713: 1
+Bit-flips for row  8741: 1
+Bit-flips for row  8753: 1
+Bit-flips for row  8843: 1
+Bit-flips for row  8900: 1
+Bit-flips for row  8954: 1
+Bit-flips for row  9211: 1
+Bit-flips for row  9321: 1
+Bit-flips for row  9375: 1
+Bit-flips for row  9390: 1
+Bit-flips for row  9391: 1
+Bit-flips for row  9394: 1
+Bit-flips for row  9444: 1
+Bit-flips for row  9507: 1
+Bit-flips for row  9547: 1
+Bit-flips for row  9556: 1
+Bit-flips for row  9576: 1
+Bit-flips for row  9583: 1
+Bit-flips for row  9600: 1
+Bit-flips for row  9602: 1
+Bit-flips for row  9603: 1
+Bit-flips for row  9649: 1
+Bit-flips for row  9692: 1
+Bit-flips for row  9836: 1
+Bit-flips for row  9847: 1
+Bit-flips for row  9863: 1
+Bit-flips for row  9868: 1
+Bit-flips for row  9908: 1
+Bit-flips for row  9952: 1
+Bit-flips for row  9956: 1
+Bit-flips for row  9978: 1
+Bit-flips for row 10042: 1
+Bit-flips for row 10058: 1
+Bit-flips for row 10143: 1
+Bit-flips for row 10288: 1
+Bit-flips for row 10320: 1
+Bit-flips for row 10326: 1
+Bit-flips for row 10329: 1
+Bit-flips for row 10411: 1
+Bit-flips for row 10419: 1
+Bit-flips for row 10488: 1
+Bit-flips for row 10560: 1
+Bit-flips for row 10608: 1
+Bit-flips for row 10615: 1
+Bit-flips for row 10639: 1
+Bit-flips for row 10644: 1
+Bit-flips for row 10667: 1
+Bit-flips for row 10687: 1
+Bit-flips for row 10689: 1
+Bit-flips for row 10705: 1
+Bit-flips for row 10725: 1
+Bit-flips for row 10734: 1
+Bit-flips for row 10766: 1
+Bit-flips for row 10769: 1
+Bit-flips for row 10783: 1
+Bit-flips for row 10787: 1
+Bit-flips for row 10793: 1
+Bit-flips for row 10794: 1
+Bit-flips for row 10848: 1
+Bit-flips for row 10887: 1
+Bit-flips for row 10995: 1
+Bit-flips for row 11024: 1
+Bit-flips for row 11063: 1
+Bit-flips for row 11071: 1
+Bit-flips for row 11077: 1
+Bit-flips for row 11086: 1
+Bit-flips for row 11119: 1
+Bit-flips for row 11219: 1
+Bit-flips for row 11261: 1
+Bit-flips for row 11270: 1
+Bit-flips for row 11310: 1
+Bit-flips for row 11376: 1
+Bit-flips for row 11399: 1
+Bit-flips for row 11415: 1
+Bit-flips for row 11426: 1
+Bit-flips for row 11435: 1
+Bit-flips for row 11473: 1
+Bit-flips for row 11545: 1
+Bit-flips for row 11562: 1
+Bit-flips for row 11629: 1
+Bit-flips for row 11803: 1
+Bit-flips for row 11818: 1
+Bit-flips for row 11826: 1
+Bit-flips for row 11835: 1
+Bit-flips for row 11885: 1
+Bit-flips for row 11982: 1
+Bit-flips for row 12007: 1
+Bit-flips for row 12025: 1
+Bit-flips for row 12028: 1
+Bit-flips for row 12178: 1
+Bit-flips for row 12255: 1
+Bit-flips for row 12267: 1
+Bit-flips for row 12382: 1
+Bit-flips for row 12451: 1
+Bit-flips for row 12464: 1
+Bit-flips for row 12533: 1
+Bit-flips for row 12534: 1
+Bit-flips for row 12619: 1
+Bit-flips for row 12631: 1
+Bit-flips for row 12705: 1
+Bit-flips for row 12736: 1
+Bit-flips for row 12766: 1
+Bit-flips for row 12814: 1
+Bit-flips for row 12830: 1
+Bit-flips for row 12915: 1
+Bit-flips for row 13026: 1
+Bit-flips for row 13205: 1
+Bit-flips for row 13264: 1
+Bit-flips for row 13282: 1
+Bit-flips for row 13304: 1
+Bit-flips for row 13372: 1
+Bit-flips for row 13376: 1
+Bit-flips for row 13383: 1
+Bit-flips for row 13410: 1
+Bit-flips for row 13443: 1
+Bit-flips for row 13444: 1
+Bit-flips for row 13512: 1
+Bit-flips for row 13533: 1
+Bit-flips for row 13541: 1
+Bit-flips for row 13748: 1
+Bit-flips for row 13756: 1
+Bit-flips for row 13765: 1
+Bit-flips for row 13780: 1
+Bit-flips for row 13880: 1
+Bit-flips for row 13912: 1
+Bit-flips for row 14052: 1
+Bit-flips for row 14070: 1
+Bit-flips for row 14118: 1
+Bit-flips for row 14285: 1
+Bit-flips for row 14314: 1
+Bit-flips for row 14338: 1
+Bit-flips for row 14358: 1
+Bit-flips for row 14360: 2
+Bit-flips for row 14402: 1
+Bit-flips for row 14430: 1
+Bit-flips for row 14456: 1
+Bit-flips for row 14457: 1
+Bit-flips for row 14488: 1
+Bit-flips for row 14507: 1
+Bit-flips for row 14515: 1
+Bit-flips for row 14661: 1
+Bit-flips for row 14671: 1
+Bit-flips for row 14695: 1
+Bit-flips for row 14810: 1
+Bit-flips for row 14862: 1
+Bit-flips for row 14904: 1
+Bit-flips for row 14971: 1
+Bit-flips for row 15022: 1
+Bit-flips for row 15045: 1
+Bit-flips for row 15063: 1
+Bit-flips for row 15086: 1
+Bit-flips for row 15120: 1
+Bit-flips for row 15127: 1
+Bit-flips for row 15129: 1
+Bit-flips for row 15133: 1
+Bit-flips for row 15201: 1
+Bit-flips for row 15261: 1
+Bit-flips for row 15267: 2
+Bit-flips for row 15281: 1
+Bit-flips for row 15323: 1
+Bit-flips for row 15363: 1
+Bit-flips for row 15366: 1
+Bit-flips for row 15441: 1
+Bit-flips for row 15543: 1
+Bit-flips for row 15592: 1
+Bit-flips for row 15653: 1
+Bit-flips for row 15696: 1
+Bit-flips for row 15735: 1
+Bit-flips for row 15760: 1
+Bit-flips for row 15797: 1
+Bit-flips for row 15836: 1
+Bit-flips for row 15843: 1
+Bit-flips for row 15881: 1
+Bit-flips for row 16001: 1
+Bit-flips for row 16015: 1
+Bit-flips for row 16211: 1
+Bit-flips for row 16221: 1
+Bit-flips for row 16336: 1
+Bit-flips for row 16360: 1
+Bit-flips for row 16380: 1

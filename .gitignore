@@ -14,3 +14,14 @@ vivado.*
 riscv64-unknown-elf-gcc*
 docs/build
 docs/source/build/**
+
+# Local session / generated artifacts (rowhammer-tester ZCU104 workflow)
+/.commandcode/
+/graphify-out/
+/soc_regs.json
+/package.json
+/package-lock.json
+/img*.jpeg
+/vivado_*.log
+/vivado_*.jou
+/vivado_*.backup.*

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import csv
 import json
 import os
 import random
@@ -208,8 +209,70 @@ class RowHammer:
             if do_error_summary:
                 err_dict[str(row)] = {"row": _row, "col": cols, "bitflips": flips}
 
+        if self.log_directory and row_errors:
+            self.dump_bitflips(row_errors)
+
         if do_error_summary:
             return err_dict
+
+    def dump_bitflips(self, row_errors):
+        """
+        Writes every single bit-flip to a CSV file with its full coordinates:
+        DRAM row, bank, column, byte offset within the row, bit index within the byte
+        and the absolute address of the flipped byte.
+        """
+
+        fname = f"{self.log_directory}/bitflips_{time.time():.6f}.csv"
+        with open(fname, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(
+                [
+                    "row",
+                    "bank",
+                    "col",
+                    "byte_in_row",
+                    "byte_lane",
+                    "bit_in_byte",
+                    "flip_addr",
+                    "data_bit",
+                    "expected_bit",
+                    "direction",
+                    "block_addr",
+                    "block_word_index",
+                ]
+            )
+            for row in sorted(row_errors, key=int):
+                base_addr = min(self.addresses_per_row(row))
+                for i, word, expected in row_errors[row]:
+                    block_addr = base_addr + 4 * i
+                    bank, _row, col = self.converter.decode_bus(block_addr)
+                    xor = word ^ expected
+                    pos = 0
+                    while xor:
+                        if xor & 1:
+                            byte_in_block = pos // 8
+                            bit_in_byte = pos % 8
+                            data_bit = (word >> pos) & 1
+                            expected_bit = (expected >> pos) & 1
+                            writer.writerow(
+                                [
+                                    row,
+                                    bank,
+                                    col,
+                                    (block_addr - base_addr) + byte_in_block,
+                                    ((block_addr - base_addr) + byte_in_block) % 8,
+                                    bit_in_byte,
+                                    block_addr + byte_in_block,
+                                    data_bit,
+                                    expected_bit,
+                                    f"{expected_bit}->{data_bit}",
+                                    block_addr,
+                                    i,
+                                ]
+                            )
+                        xor >>= 1
+                        pos += 1
+        print(f"Bit-flip log written to: {fname}")
 
     def no_attack_sleep(self):
         sleep_time = self.no_attack_time / 1e9

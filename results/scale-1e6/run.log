@@ -1,0 +1,68 @@
+Using generated target files in: build/zcu104
+Board info: Row Hammer Tester SoC on xczu7ev-ffvc1156-2-i, git: 2ab8a67fa2f2c588fdb05145d5d1a7ddbde4a412 2026-09-16 17:29:22
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Running Rowhammer attacks ...
+read_count: 1000000
+  Iter 1 / 1 Rows = (3, 5), Count =  0.00M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.16M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.31M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.47M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.62M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.78M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  0.93M /  1.00M  
+  Iter 1 / 1 Rows = (3, 5), Count =  1.00M /  1.00M  
+
+Verifying attacked memory ...
+OK
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Running Rowhammer attacks ...
+read_count: 1000000
+  Iter 1 / 1 Rows = (4, 6), Count =  0.00M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.16M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.31M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.47M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.62M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.78M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  0.93M /  1.00M  
+  Iter 1 / 1 Rows = (4, 6), Count =  1.00M /  1.00M  
+
+Verifying attacked memory ...
+OK
+
+Preparing ...
+WARNING: only single word patterns supported, using: 0xaaaaaaaa
+
+Filling memory with data ...
+
+Verifying written memory ...
+OK
+
+Running Rowhammer attacks ...
+read_count: 1000000
+  Iter 1 / 1 Rows = (5, 7), Count =  0.00M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.16M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.33M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.49M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.64M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.80M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  0.95M /  1.00M  
+  Iter 1 / 1 Rows = (5, 7), Count =  1.00M /  1.00M  
+
+Verifying attacked memory ...
+OK

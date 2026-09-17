@@ -1,0 +1,20 @@
+{
+    "100000": {
+        "read_count": 100000,
+        "pair_3_5": {
+            "hammer_row_1": 3,
+            "hammer_row_2": 5,
+            "errors_in_rows": {}
+        },
+        "pair_4_6": {
+            "hammer_row_1": 4,
+            "hammer_row_2": 6,
+            "errors_in_rows": {}
+        },
+        "pair_5_7": {
+            "hammer_row_1": 5,
+            "hammer_row_2": 7,
+            "errors_in_rows": {}
+        }
+    }
+}
